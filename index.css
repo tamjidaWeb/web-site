@@ -7,7 +7,7 @@
 main{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(images/splash.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.78)),url(images/splash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -35,7 +35,7 @@ ul li a{
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: rgba(0,0,0,0.2);
     padding: 10px 0px;
 }
@@ -54,4 +54,61 @@ ul li::after{
 }
 ul li:hover::after{
     width: 90%;
+}
+img{
+    width: 30%;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(25%,-25%);
+    
+}
+.text{
+
+    width: 55%;
+    /* height: 200px; */
+    color: rgb(161, 167, 164);
+    position: absolute;
+
+    /* align-items: center;
+    justify-content: center; */
+    top: 50%;
+    left: 39%;
+    /* padding: 200px 0; */
+    /* border: 1px solid red; */
+    transform: translate(-50%,-50%);
+}
+.text h1{
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 3px;
+    /* border: 1px solid red; */
+}
+/* .text p{
+    padding: 40px 0;
+    border: 1px solid red;
+} */
+.button a{
+    text-decoration: none;
+    color: #fff;
+    /* background-color: blueviolet; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid white;
+    position: relative;
+    cursor: pointer;
+
+    /* display: inline-block; */
+}
+.button{
+    padding: 30px 0px;
+}
+.button a:hover{
+    
+    background: green;
+    border: 2px solid black;
+    transition: 1s;
+
 }
