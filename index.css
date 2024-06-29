@@ -121,6 +121,7 @@ nav ul li:hover::after{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    padding: 12px;
 }
 .row{
     display: flex;
@@ -296,4 +297,39 @@ padding: 12px;    /* padding-bottom: 15px; */
     100%{
         width: 85%;
     }
+}
+
+.service h1{
+    text-align: center;
+}
+#pid{
+    text-align: center;
+}
+
+
+.service{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    /* background-color:#FFF3F4; */
+    padding-bottom: 50px;
+    border: 1px solid red;
+}
+.row3{
+    display: flex;
+   
+    justify-content: space-between;
+    padding: 30px 12px;
+}
+.column{
+    background: #FFF3F4;
+    border-radius: 10px;
+    flex-basis: 30%;
+    padding: 40px 12px;
+    
+}
+.column:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
